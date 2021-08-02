@@ -1,6 +1,6 @@
 # Java101-Patika.dev
 
-Bu repo [Kodluyoruz](Kodluyoruz.org) Java 101 eğitimi için hazırladığım Java pratik ve ödevlerinin soru ve cevaplarını içeren bir adet README içeriyor.
+Bu repo [Patika.dev](https://www.patika.dev/) Java 101 eğitimi için hazırladığım Java pratik ve ödevlerinin soru ve cevaplarını içeren bir adet README içeriyor.
 
 | PRATİKLER | ÖDEVLER |
 |-----|-----|
