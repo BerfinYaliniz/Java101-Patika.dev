@@ -15,7 +15,7 @@ Bu repo [Patika.dev](https://www.patika.dev/) Java 101 eğitimi için hazırlad�
 | [PRATİK 9]- Hava Sıcaklığına Göre Etkinlik Önerme|
 | [PRATİK 10]- Sayıları Büyükten Küçüğe Sıralayan Program|
 | [PRATİK 11]- Burç Bulan Program|
-
+| [PRATİK 12]- Recursive ile Fibonacci Serisi|
 ---
 ## :open_book: PRATİK 1	- Not Ortalaması
 
@@ -973,4 +973,38 @@ public class ManavKasa {
 ```
 </details> 
  
----
+## :open_book: PRATİK 12	- Recursive ile Fibonacci Serisi
+
+### SORU :question:
+Recursive ile Fibonacci Serisi
+Java'da recursive metotlar ile fibonacci serisi bulan program yapıyoruz.
+
+
+
+### :green_square: CEVAP
+
+<details>
+<summary>Kodu görmek için tıklayınız.</summary>
+  
+```public class JavaPatika {
+
+    static int fibo(int n) {
+        if (n == 1 || n == 2) {
+            return 1;
+        }
+        return fibo(n - 1) + fibo(n - 2);
+    }
+
+    public static void main(String[] args) {
+        // 1 1 2 3 5 8 13 21
+        // f(n) = f(n-1) + f(n-2)
+        // f(6) = f(5) + f(4)
+        // f(5) = f(4) + f(3)
+        // f(4) = f(3) + f(2)
+        // f(3) = f(2) + f(1)
+
+        System.out.println(fibo(7));
+    }
+}
+```
+</details>
